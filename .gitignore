@@ -13,6 +13,7 @@ crash.*.log
 override.tf
 override.tf.json
 terraform.tfstate.d/
+*.exe
 
 # IDE
 .idea/
@@ -24,6 +25,4 @@ terraform.tfstate.d/
 Thumbs.db
 
 # Checkov
-.checkov.yaml".terraform/" 
-"*.tfstate" 
-"*.tfstate.backup" 
+.checkov.yaml
