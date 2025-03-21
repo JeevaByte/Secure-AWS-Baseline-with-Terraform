@@ -20,4 +20,6 @@ terraform.tfstate.d/
 Thumbs.db
 
 # Checkov
-.checkov.yaml
+.checkov.yaml".terraform/" 
+"*.tfstate" 
+"*.tfstate.backup" 
