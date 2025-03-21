@@ -1,5 +1,9 @@
 # Terraform
-.terraform/
+.terraform
+.terraform/modules
+.terraform/modules/*
+.terraform/providers/registry.terraform.io/*
+.terraform/plugins
 *.tfstate
 *.tfstate.backup
 crash.log
