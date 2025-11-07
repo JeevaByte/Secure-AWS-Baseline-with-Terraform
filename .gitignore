@@ -26,3 +26,15 @@ Thumbs.db
 
 # Checkov
 .checkov.yaml
+
+# Evidence files (should not be committed)
+audit-evidence/evidence/*.json
+audit-evidence/evidence/*.csv
+audit-evidence/evidence/*.log
+audit-evidence/evidence/*.txt
+!audit-evidence/evidence/.gitkeep
+
+# Terraform plan outputs
+tfplan
+plan_output.txt
+checkov_results.json
